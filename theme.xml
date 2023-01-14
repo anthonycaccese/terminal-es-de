@@ -80,8 +80,8 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${bodyFont}</fontPath>
          <horizontalMargin>0</horizontalMargin>
          <indicators>ascii</indicators>
-         <letterCaseCollections>capitalize</letterCaseCollections>
-         <letterCaseGroupedCollections>capitalize</letterCaseGroupedCollections>
+         <!--<letterCaseCollections>capitalize</letterCaseCollections>
+         <letterCaseGroupedCollections>capitalize</letterCaseGroupedCollections>-->
          <zIndex>1</zIndex>
       </textlist>
       <helpsystem name="help">
