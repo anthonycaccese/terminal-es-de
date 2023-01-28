@@ -1,5 +1,15 @@
 <themeCapabilities>
 
+   <variant name="c64">
+      <label>C64</label>
+      <selectable>true</selectable>
+   </variant>
+
+   <variant name="vic20">
+      <label>Vic-20</label>
+      <selectable>false</selectable>
+   </variant>
+
    <variant name="afterglow">
       <label>Afterglow</label>
       <selectable>true</selectable>

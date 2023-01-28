@@ -7,8 +7,8 @@ license:       creative commons CC-BY-NC-SA
 <theme>
 
    <variables>
-      <bodyFont>./_inc/fonts/UbuntuMono-Regular.ttf</bodyFont>
       <spacerImage>./_inc/images/space.png</spacerImage>
+         <bodyFont>./_inc/fonts/C64.ttf</bodyFont>
    </variables>
 
    <variant name="afterglow">
@@ -87,7 +87,6 @@ license:       creative commons CC-BY-NC-SA
       <helpsystem name="help">
          <pos>0.04375 0.911111111111111</pos><!-- 56 656 -->
          <fontPath>${bodyFont}</fontPath>
-         <fontSize>0.025</fontSize>
       </helpsystem>
    </view>
 
@@ -105,5 +104,49 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>2</zIndex>
       </video>
    </view>
+
+   <variant name="c64">
+      <view name="system,gamelist">
+         <image name="background">
+            <color>7C71DA</color>
+         </image>
+         <image name="gamelist-background">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <size>0.9 0.9</size>
+            <color>3E32A2</color>
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <zIndex>1</zIndex>
+         </image>
+         <text name="bash-header">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.08</pos>
+            <color>7C71DA</color>
+            <text>**** ES-DE TERMINAL v2.0 ****</text>
+            <fontPath>${bodyFont}</fontPath>
+            <fontSize>0.02</fontSize>
+         </text>
+         <text name="bash-prompt">
+            <pos>1 1</pos>
+         </text>
+         <textlist name="directory-list">
+            <pos>0.07 0.22</pos>
+            <size>0.986 0.7</size>
+            <fontSize>0.02</fontSize>
+            <selectorColor>00000000</selectorColor>
+            <selectedColor>F5C880</selectedColor>
+            <primaryColor>7C71DA</primaryColor>
+            <secondaryColor>7C71DA</secondaryColor>
+         </textlist>
+         <helpsystem name="help">
+            <origin>0.5 1</origin>
+            <pos>0.5 0.16</pos>
+            <fontSize>0.018</fontSize>
+            <textColor>7C71DA</textColor>
+            <iconColor>7C71DA</iconColor>
+         </helpsystem>
+      </view>
+   </variant>
 
 </theme>
