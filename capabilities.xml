@@ -11,4 +11,9 @@
       <selectable>true</selectable>
    </variant>
 
+   <variant name="zxspectrum">
+      <label>ZX-Spectrum</label>
+      <selectable>true</selectable>
+   </variant>
+
 </themeCapabilities>

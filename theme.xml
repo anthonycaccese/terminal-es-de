@@ -172,5 +172,137 @@ license:       creative commons CC-BY-NC-SA
          </view>
       </aspectRatio>
    </variant>
-   
+
+   <variant name="zxspectrum">
+      <variables>
+         <bodyFont>./_inc/fonts/zxspectrum.ttf</bodyFont>
+      </variables>
+      <view name="system,gamelist">
+         <image name="background">
+            <color>212121</color>
+         </image>
+         <image name="list-background">
+            <color>EEEEEE</color>
+         </image>
+         <text name="header">
+            <origin>0 0</origin>
+            <text>© ES-DE Terminal v2.0</text>
+            <fontPath>${bodyFont}</fontPath>
+            <fontSize>0.016666666666667</fontSize><!-- 12 -->
+            <lineSpacing>1</lineSpacing>
+            <color>000000</color>
+         </text>
+         <helpsystem name="help">
+            <origin>0 0</origin>
+            <fontSize>0.016666666666667</fontSize><!-- 12 -->
+            <textColor>000000</textColor>
+            <iconColor>000000</iconColor>
+            <fontPath>${bodyFont}</fontPath>
+         </helpsystem>
+         <text name="prompt">
+            <text>A></text>
+            <fontPath>${bodyFont}</fontPath>
+            <fontSize>0.016666666666667</fontSize><!-- 12 -->
+            <color>000000</color>
+         </text>
+         <textlist name="list">
+            <fontPath>${bodyFont}</fontPath>
+            <fontSize>0.016666666666667</fontSize><!-- 12 -->
+            <selectedColor>eeeeee</selectedColor>
+            <selectedBackgroundColor>000000</selectedBackgroundColor>
+            <primaryColor>000000</primaryColor>
+            <secondaryColor>000000</secondaryColor>
+         </textlist>
+      </view>
+      <view name="gamelist">
+         <text name="system-name">
+            <text>${system.fullName}</text>
+            <fontPath>${bodyFont}</fontPath>
+            <fontSize>0.016666666666667</fontSize><!-- 12 -->
+            <color>000000</color>
+         </text>
+         <video name="video">
+            <origin>1 0</origin>
+         </video>
+      </view>
+      <aspectRatio name="16:9">
+         <view name="system,gamelist">
+            <text name="header">
+               <pos>0.0703125 0.125</pos><!-- 90 90 -->
+            </text>
+            <helpsystem name="help">
+               <pos>0.0703125 0.166666666666667</pos><!-- 90 120 -->
+            </helpsystem>
+            <image name="list-background">
+               <size>1 1</size><!-- 100% 100% -->
+            </image>
+            <text name="prompt">
+               <pos>0.0703125 0.230555555555556</pos><!-- 90 166 -->
+            </text>
+            <textlist name="list">
+               <pos>0.0703125 0.319444444444444</pos><!-- 90 230 -->
+               <size>0.46875 0.583333333333333</size><!-- 600 420 -->
+            </textlist>
+         </view>
+         <view name="gamelist">
+            <text name="system-name">
+               <pos>0.096875 0.230555555555556</pos><!-- 124 166 -->
+               <letterCase>uppercase</letterCase>
+            </text>
+            <video name="video">
+               <pos>0.9296875 0.236111111111111</pos><!-- 1190 170 -->
+               <maxSize>0.234375 0.555555555555556</maxSize><!-- 300 400 -->
+            </video>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="16:10">
+         <view name="system,gamelist">
+            <image name="list-background">
+               <size>1 1</size><!-- 100% 100% -->
+            </image>
+            <text name="prompt">
+               <pos>0.078125 0.230555555555556</pos><!-- 90 166 -->
+            </text>
+            <textlist name="list">
+               <pos>0.078125 0.319444444444444</pos><!-- 90 230 -->
+               <size>0.520833333333333 0.583333333333333</size><!-- 600 420 -->
+            </textlist>
+         </view>
+         <view name="gamelist">
+            <text name="system-name">
+               <pos>0.151041666666667 0.230555555555556</pos><!-- 174 166 -->
+               <letterCase>uppercase</letterCase>
+            </text>
+            <video name="video">
+               <pos>0.921875 0.236111111111111</pos><!-- 1062 170 -->
+               <maxSize>0.260416666666667 0.555555555555556</maxSize><!-- 300 400 -->
+            </video>
+         </view>
+      </aspectRatio>
+      <aspectRatio name="4:3">
+         <view name="system,gamelist">
+            <image name="list-background">
+               <size>1 1</size><!-- 100% 100% -->
+            </image>
+            <text name="prompt">
+               <pos>0.09375 0.230555555555556</pos><!-- 90 166 -->
+            </text>
+            <textlist name="list">
+               <pos>0.09375 0.319444444444444</pos><!-- 90 230 -->
+               <size>0.625 0.583333333333333</size><!-- 600 420 -->
+            </textlist>
+         </view>
+         <view name="gamelist">
+            <text name="system-name">
+               <pos>0.18125 0.230555555555556</pos><!-- 174 166 -->
+               <letterCase>uppercase</letterCase>
+            </text>
+            <video name="video">
+               <pos>0.90625 0.236111111111111</pos><!-- 870 170 -->
+               <maxSize>0.3125 0.555555555555556</maxSize><!-- 300 400 -->
+            </video>
+         </view>
+      </aspectRatio>
+   </variant>
+
 </theme>
