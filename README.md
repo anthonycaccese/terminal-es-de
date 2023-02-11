@@ -8,5 +8,5 @@
 
 ## Preview
  
-![Screenshot 2023-02-11 at 11 01 31 AM](https://user-images.githubusercontent.com/1454947/218268425-759260e7-8805-4869-9419-65abdc609552.png)
+![Screenshot 2023-02-11 at 11 08 59 AM](https://user-images.githubusercontent.com/1454947/218268468-4cd4b328-c18a-40eb-8530-2bb667b2773d.png)
 ![Screenshot 2023-02-11 at 11 00 22 AM](https://user-images.githubusercontent.com/1454947/218268427-ab5f26ac-4370-4d17-8fea-b1b057f6b66f.png)
