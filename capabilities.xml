@@ -1,4 +1,6 @@
 <themeCapabilities>
+   
+   <themeName>Terminal</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -6,11 +8,6 @@
 
    <variant name="c64">
       <label>C64</label>
-      <selectable>true</selectable>
-   </variant>
-
-   <variant name="zxspectrum">
-      <label>ZX-Spectrum</label>
       <selectable>true</selectable>
    </variant>
 
